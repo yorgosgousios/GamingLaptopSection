@@ -1,0 +1,143 @@
+.col1 {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.col2 {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.number {
+  position: absolute;
+  left: 1.6rem;
+  top: 3.7rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.numberTwo {
+  position: absolute;
+  left: 3rem;
+  top: 3.7rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.fps {
+  position: absolute;
+  top: 123px;
+  left: 65px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fpsTwo {
+  position: absolute;
+  top: 123px;
+  left: 90px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mode {
+  width: 126px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Grey/Extra Bold */
+
+  color: #2e2e2e;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.column2 {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.border {
+  border: 1px solid #c5c5c5;
+  margin-top: 30px;
+}
+
+.titleScore {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+@media screen and (max-width: 992px) {
+  .col1 {
+    justify-content: space-around;
+  }
+  .col2 {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .number {
+    top: 1.7rem;
+  }
+
+  .numberTwo {
+    left: 1.5rem;
+    top: 1.8rem;
+  }
+
+  .fps {
+    top: 77px;
+  }
+
+  .fpsTwo {
+    top: 80px;
+    left: 63px;
+  }
+}

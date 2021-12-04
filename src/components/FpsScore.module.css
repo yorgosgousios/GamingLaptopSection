@@ -1,0 +1,99 @@
+.border {
+  border: 1px solid #c5c5c5;
+  margin-top: 30px;
+}
+
+.titleScore {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.col1 {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+}
+
+.col2 {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.numberFirst {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #be0f34;
+  position: absolute;
+  top: 19px;
+  left: 76px;
+}
+.numberSecond {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #be0f34;
+  position: absolute;
+  top: 19px;
+  left: 74px;
+}
+
+.fpsRed {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #be0f34;
+  top: 43px;
+}
+
+.fpslogo {
+  width: 78px;
+  height: 78px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Grey/Extra Bold */
+
+  color: #2e2e2e;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 330px) {
+  .numberFirst {
+    left: 63px;
+  }
+
+  .numberSecond {
+    left: 60px;
+  }
+}

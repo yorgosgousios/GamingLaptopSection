@@ -1,0 +1,10 @@
+.row {
+  justify-content: center;
+}
+
+.dropdown {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+}
