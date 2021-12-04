@@ -5,6 +5,7 @@ import { Fragment } from "react";
 import DropDownMenu from "./components/DropdownMenu";
 import GameFps from "./components/GameFps";
 import FpsScore from "./components/FpsScore";
+import LastSection from "./components/LastSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <DropDownMenu />
       <GameFps />
       <FpsScore />
+      <LastSection />
     </Fragment>
   );
 }

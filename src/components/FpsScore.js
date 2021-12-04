@@ -35,6 +35,7 @@ const FpsScore = () => {
           RECOMMENDED
         </Col>
       </Row>
+      <div className={styles.borderSecond}></div>
     </Container>
   );
 };
