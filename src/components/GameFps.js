@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import polygon from "../assets/Polygon 2.png";
-import polygonWhite from "../assets/PolygonWhite.png";
 import styles from "./GameFps.module.css";
 import "../index.css";
 
